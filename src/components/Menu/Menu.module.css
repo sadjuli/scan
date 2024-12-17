@@ -1,0 +1,10 @@
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 128px;
+    margin-left: auto;
+}
+.menu__item {
+    cursor: pointer;
+}

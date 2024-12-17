@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.cover {
+    height: 342px;
+    background-image: url(/login.svg);
+    background-position: left 112px top 50%;
+    background-repeat: no-repeat;
+    flex: 1;
+}

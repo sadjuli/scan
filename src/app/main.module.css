@@ -1,0 +1,191 @@
+.h1 {
+    font-size: 60px;
+    line-height: 72px;
+}
+.h2 {
+    margin-bottom: 70px;
+    font-size: 45px;
+    line-height: 54px;
+}
+.cover {
+    margin-bottom: 110px;
+    background-image: url(/cover_image.svg);
+    background-size: 630px 620px;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    height: 620px;
+}
+.sub {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+.button {
+    padding: 14px 60px;
+    color: #fff;
+    background-color: rgba(89, 112, 255, 1);
+    border-radius: 5px;
+    width: 335px;
+}
+.why {
+    display: flex;
+    margin-bottom: 70px;
+}
+.why__prev {}
+.why__next {}
+.why__cards {
+    display: flex;
+    gap: 30px;
+}
+.why__card {
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px 20px;
+    flex: 1;
+    border-radius: 10px;
+}
+.why__icon {
+    margin-bottom: 20px;
+}
+.why__text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.images {
+    margin-bottom: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.images__left {}
+.images__right {}
+
+.tariffs {
+    display: flex;
+    margin-bottom: 120px;
+    gap: 36px;
+}
+.tariffs__card {
+    flex: 1;
+    border-radius: 10px;
+    height: 540px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.tariffs__beginner {
+    border: 1px solid rgba(255, 182, 79, 1);
+}
+.tariffs__beginner .tariffs__header {
+    background-color: rgba(255, 182, 79, 1);
+    background-image: url(/tariff1.svg);
+    background-position: right 16px top 11px;
+    background-repeat: no-repeat;
+    background-size: 92px 83px;
+}
+.tariffs__pro .tariffs__header {
+    background-color: rgba(124, 227, 225, 1);
+    background-image: url(/tariff2.svg);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: 94px 104px;
+}
+.tariffs__business .tariffs__header {
+    background-color: rgba(0, 0, 0, 1);
+    background-image: url(/tariff3.svg);
+    background-position: right 5px top 23px;
+    background-repeat: no-repeat;
+    background-size: 96px 80px;
+    color: white;
+}
+.tariffs__header {
+    padding: 30px;
+}
+.tariffs__content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+}
+.tariffs__title {
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 500;
+}
+.tariffs__sub {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+}
+.tariffs__icon {}
+.tariffs__price {
+    margin-bottom: auto;
+}
+.tariffs__prices {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.tariffs__pricenew {
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 500;
+}
+.tariffs__priceold {
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.tariffs__pricetext {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+.tariffs__options {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.tariffs__optionstitle {
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+}
+.tariffs__optionsitem {
+    margin-bottom: 5px;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    background-image: url(/tariff_item_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 20px;
+    padding-left: 28px;
+}
+.tariffs__button {
+    margin-top: auto;
+    padding: 18px 45px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(89, 112, 255, 1);
+    color: #fff;
+    cursor: default;
+}
+.tariffs__buttonactive {
+    background-color: rgba(210, 210, 210, 1);
+    cursor: pointer;
+    color: #000;
+}

@@ -1,0 +1,83 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 772px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    padding: 25px;
+}
+.form__flex {
+    display: flex;
+    gap: 10px;
+}
+.form__row {
+    margin-bottom: 30px;
+}
+.form__rowSmall {
+    margin-bottom: 15px;
+}
+.form__column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.form__label {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.form__label span {
+    color: rgba(148, 148, 148, 1);
+}
+.form__labelCheckbox {
+    display: flex;
+    gap: 16px;
+}
+.form__input {
+    border-radius: 5px;
+    border: 1px solid rgba(199, 199, 199, 1);
+    width: 100%;
+    max-width: 242px;
+    padding: 12px 20px;
+
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+
+    outline: none;
+}
+.form__select {
+    appearance: none;
+    background-image: url(/select_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px top 50%;
+
+    border-radius: 5px;
+    border: 1px solid rgba(199, 199, 199, 1);
+    width: 100%;
+    max-width: 242px;
+    padding: 12px 20px;
+
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+
+    outline: none;
+}
+.form__button {
+    background-color: rgba(89, 112, 255, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 500;
+    padding: 16px;
+    border-radius: 5px;
+    width: 305px;
+    margin-left: auto;
+}
+.form__toBottom {
+    margin-top: auto;
+}

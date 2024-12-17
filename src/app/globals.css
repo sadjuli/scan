@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Ferry';
+  src: url('./fonts/ferry_black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 0 60px;
+  margin: 24px auto;
+}
+
+h1 {
+  font-family: 'Ferry';
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  margin-bottom: 25px;
+}
+h2 {
+  font-family: 'Ferry';
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+
+p.sub {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 46px;
+}

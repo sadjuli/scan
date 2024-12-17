@@ -1,0 +1,84 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 430px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    margin-bottom: 80px;
+}
+.form__tabs {
+    display: flex;
+    gap: 15px;
+}
+.form__tab {
+    flex: 1;
+    text-align: center;
+    border-bottom: 2px solid rgba(199, 199, 199, 1);
+    padding-bottom: 8px;
+}
+.form__tabActive {
+    border-bottom: 2px solid rgba(2, 148, 145, 1);
+}
+.form__row {}
+.form__label {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.form__label span {
+    color: rgba(148, 148, 148, 1);
+}
+.form__input {
+    border-radius: 5px;
+    border: 1px solid rgba(199, 199, 199, 1);
+    width: 100%;
+    padding: 12px 20px;
+
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+
+    outline: none;
+}
+.form__button {
+    background-color: rgba(89, 112, 255, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 500;
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+}
+.form__recover {
+    color: rgba(89, 112, 255, 1);
+    text-decoration: underline;
+
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.auth__title {
+    margin-bottom: 15px;
+    color: rgba(148, 148, 148, 1);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+.auth__services {
+    display: flex;
+    gap: 10px;
+}
+.auth__service {
+    border: 1px solid rgba(89, 112, 255, 0.51);
+    border-radius: 3px;
+    padding: 6px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

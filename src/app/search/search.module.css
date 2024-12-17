@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex_bottom {
+    align-items: flex-end;
+}
+.cover {
+    background-image: url(/search.svg);
+    background-repeat: no-repeat;
+    width: 442px;
+    height: 470px;
+}
+.flex1 {
+    flex: 1;
+}
+.docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+.doc1 {
+    background-image: url(/search_doc1.svg);
+    width: 91px;
+    height: 111px;
+}
+.doc2 {
+    background-image: url(/search_doc2.svg);
+    width: 140px;
+    height: 68px;
+}

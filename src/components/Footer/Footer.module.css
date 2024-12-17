@@ -1,0 +1,19 @@
+.footer {
+    background-color: rgba(2, 148, 145, 1);
+    height: 137px;
+    width: 100%;
+}
+.footer__wrapper {
+    height: 137px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo {}
+.footer__info {
+    color: #fff;
+}
